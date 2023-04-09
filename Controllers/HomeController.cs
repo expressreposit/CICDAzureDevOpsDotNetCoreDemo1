@@ -16,6 +16,7 @@ namespace CICDAzureDevOpsDotNetCoreDemo1.Controllers
         public IActionResult Index()
         {
             var valuesNumber = 1234;
+            var Asmita = 16;
             return View(valuesNumber);
         }
 
