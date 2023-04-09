@@ -15,12 +15,14 @@ namespace CICDAzureDevOpsDotNetCoreDemo1.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var valuesNumber = 1234;
+            return View(valuesNumber);
         }
 
         public IActionResult Privacy()
         {
-            return View();
+            var valuesNumber = 1234;
+            return View(valuesNumber);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
